@@ -1,0 +1,20 @@
+*{
+    background-color: aqua;
+}
+    
+.imagen-Danza{
+    width: 5cm;
+    height: 5cm;
+    
+}
+h3{
+    color: chocolate;
+}
+h1{
+    font-family: "Playwrite VN", serif;
+    text-align: center;
+}
+#borde{
+    border-style: groove;
+    color: rgb(183, 53, 135);
+}
