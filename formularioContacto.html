@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+    </header>
+<main>
+      <fieldset>
+           <legend>Datos personales</legend>
+        Nombre: <input type="text" placeholder="Arely" required><br>
+        Apellido Paterno: <input type="text" placeholder="Hernandez" required><br>
+        Apellido Materno: <input type="text" placeholder="Cuellar" required><br>
+        correo electronico: <input type="email" placeholder="arelya22@gmail.com"><br>
+        Telefono: <input type="number" placeholder="5564333256"><br>
+
+
+
+    </fieldset>
+    <fieldset>
+        <h2>Gimnasios Disponibles</h2>
+         <select name="Gimnasios">
+         <option value="">Gimnasio olimpico</option>
+         <option value="">Gimnasio sala de armas</option>
+         <option value="">Gimnasio chimalhuacan</option>
+        </select>
+
+        <h3>Dias de la semana</h3>
+        <select name="Dias">
+            <option value="">Lunes</option>
+            <option value="">Martes</option>
+            <option value="">Miercoles</option>
+            <option value="">jueves</option>
+            <option value="">viernes</option>
+           </select><br>
+           Numero dias a ensayar: <input type="number" min="1" max="5" required><br>
+    </fieldset>
+    <br>
+    <input type="checkbox" required> Acepto terminos y condiciones
+                <br>
+                <input type="submit">
+
+
+</main>
+    
+</body>
+</html>
